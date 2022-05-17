@@ -13,13 +13,8 @@ const Quiz = (props) => {
 
     const perguntas  = [
         {
-            pergunta: "Quantos anos Edward tem no filme Lua Nova?",
+            pergunta: "Quantos anos Edward tem nos filmes?",
             respostas: ["109", "104", "113", "102"],
-            correta: 0
-        },
-        {
-            pergunta: "Como Esme havia morrido antes de se tornar vampira?",
-            respostas: ["Doença de época", "Pulando de um penhasco" ,"Atropelada" , "Assaltada"],
             correta: 1
         },
         {
@@ -33,7 +28,7 @@ const Quiz = (props) => {
             correta: 2
         },
         {
-            pergunta: "Qual o motivo de que a Rosalie não se dava bem no começo com a Bella?",
+            pergunta: "Por qual motivo Rosalie não se dava bem com a Bella no começo?",
             respostas: ["Inveja, por bella desperdiçar sua vida humana" , "Gostava do edward" , "Por conta de uma briga", "Todas as alternativas"],
             correta: 0
         },
@@ -41,9 +36,10 @@ const Quiz = (props) => {
             pergunta: "Qual é o nome da Bella completo?",
             respostas: ["Bella Swan" , "Bella Cullen" , "Isabella Marie Swan" ,"Isabella Swan"],
             correta: 2
-        },
+        }
         
     ];
+
 
     const verificaResposta = (i) => {
 
@@ -53,7 +49,7 @@ const Quiz = (props) => {
             alteraPontos ( pontos + 5 );
         }
 
-        if ( etapa + 1 < perguntas.length ){
+        if ( etapa + 1 < perguntas.length){
             alteraEtapa (etapa + 1);
         }else{
             alteraTela( <Final alteraTela={alteraTela} pontos={pontos}/> );
