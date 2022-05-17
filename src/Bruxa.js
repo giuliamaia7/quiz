@@ -13,29 +13,29 @@ const Bruxa = (props) => {
 
     const perguntas  = [
         {
-            pergunta: "aaaaaaaaaa",
-            respostas: ["2013", "2015", "2008", "2012"],
-            correta: 2
-        },
-        {
-            pergunta: "Em qual monumento Peter Parker salva seus colegas em Homem Aranha: De volta ao Lar?",
-            respostas: ["Cristo Redentor", "Torre Eiffel" ,"Big Ben" , "Monumento de Washington"],
-            correta: 3
-        },
-        {
-            pergunta: "Qunatas jóias do infinito existem?",
-            respostas: ["5", "6", "4", "8"],
-            correta: 1
-        },
-        {
-            pergunta: "A Viúva negra é originalmente de qual país?",
-            respostas: ["Rússia", "Filipinas", "França", "Eslováquia"],
+            pergunta: "Ambrose é o que de Sabrina?",
+            respostas: ["Primo" , "Tio", "Melhor Amigo" , "Irmão"],
             correta: 0
         },
         {
-            pergunta: "Como Nick Fury perdeu o olho?",
-            respostas: ["Luta contra o Homem de Ferro" , "Em uma batalha de quando era jovem" , "Arranhão de um gato", "Caiu de um prédio quando criança"],
+            pergunta: "Qual Personagem é filha do padre BlackWood?",
+            respostas: ["Dorcas", "Prudence" , "Sabrina" , "Agatha"],
+            correta: 1
+        },
+        {
+            pergunta: "Em que ano a série foi lançada?",
+            respostas: ["2016", "2019", "2018", "2017"],
             correta: 2
+        },
+        {
+            pergunta: "Quantas temporadas tem a série?",
+            respostas: ["2", "3", "5", "4"],
+            correta: 3
+        },
+        {
+            pergunta: "Qual o nome da atris que interpreta a personagem pricipal?",
+            respostas: ["Lucy Davis", "Miranda Otto", "Abigail Owen" , "Kiernan Shipka" ],
+            correta: 3
         }
     ];
 
