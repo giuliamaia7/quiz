@@ -43,7 +43,3 @@ const Apresentacao = (props) => {
 }
 
 export default Apresentacao;
-
-
-
-
