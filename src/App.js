@@ -13,8 +13,6 @@ function App() {
     return (
         <div>
 
-            <p> MENU </p>
-
             { tela }
 
         </div>
